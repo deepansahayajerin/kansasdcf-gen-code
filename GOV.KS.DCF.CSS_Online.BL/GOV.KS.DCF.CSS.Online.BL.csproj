@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CPY_SWCSZE18.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GOV.KS.DCF.CSS.Common.BL\GOV.KS.DCF.CSS.Common.BL.csproj">
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MDSY.Framework.Buffer.BaseClasses">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Buffer.BaseClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Buffer.Common">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Buffer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Buffer.Extensions">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Buffer.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Buffer.Implementation">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Buffer.Implementation.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Buffer.Interfaces">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Buffer.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Buffer.Services">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Buffer.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Buffer.Unity">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Buffer.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Configuration.Common">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Configuration.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Control.CICS">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Control.CICS.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Core">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Data.SQL">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Data.SQL.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Interfaces">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.IO.Common">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.IO.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.Service.Interfaces">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.Service.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MDSY.Framework.UI.Angular">
+      <HintPath>..\FrameworkDlls\net6.0\MDSY.Framework.UI.Angular.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

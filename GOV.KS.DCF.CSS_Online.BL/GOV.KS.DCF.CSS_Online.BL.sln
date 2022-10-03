@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOV.KS.DCF.CSS.Online.BL", "GOV.KS.DCF.CSS.Online.BL.csproj", "{4BE36D0B-6279-4612-A84A-5CD619359962}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOV.KS.DCF.CSS.Common.BL", "..\GOV.KS.DCF.CSS.Common.BL\GOV.KS.DCF.CSS.Common.BL.csproj", "{5C6F76AE-B100-4E0F-8418-2A1ED625D6C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOV.KS.DCF.CSS.Batch.BL", "..\GOV.KS.DCF.CSS.Batch.BL\GOV.KS.DCF.CSS.Batch.BL.csproj", "{FACF945E-135C-4634-8A8C-A3CA0FA1CE2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOV.KS.DCF.CSS.Test", "..\GOV.KS.DCF.CSS.Test\GOV.KS.DCF.CSS.Test.csproj", "{6576F3EF-06F5-4566-BE0D-344B522F2BC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BE36D0B-6279-4612-A84A-5CD619359962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE36D0B-6279-4612-A84A-5CD619359962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE36D0B-6279-4612-A84A-5CD619359962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE36D0B-6279-4612-A84A-5CD619359962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6F76AE-B100-4E0F-8418-2A1ED625D6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6F76AE-B100-4E0F-8418-2A1ED625D6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6F76AE-B100-4E0F-8418-2A1ED625D6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6F76AE-B100-4E0F-8418-2A1ED625D6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FACF945E-135C-4634-8A8C-A3CA0FA1CE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACF945E-135C-4634-8A8C-A3CA0FA1CE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACF945E-135C-4634-8A8C-A3CA0FA1CE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACF945E-135C-4634-8A8C-A3CA0FA1CE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6576F3EF-06F5-4566-BE0D-344B522F2BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6576F3EF-06F5-4566-BE0D-344B522F2BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6576F3EF-06F5-4566-BE0D-344B522F2BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6576F3EF-06F5-4566-BE0D-344B522F2BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D76A85D9-7AB9-439B-A6AE-34C3857AB8FA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://daltfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GOV.KS.DCF.CSS.Online.BL.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\GOV.KS.DCF.CSS.Common.BL\\GOV.KS.DCF.CSS.Common.BL.csproj
+		SccProjectName2 = ../GOV.KS.DCF.CSS.Common.BL
+		SccLocalPath2 = ..\\GOV.KS.DCF.CSS.Common.BL
+		SccProjectUniqueName3 = ..\\GOV.KS.DCF.CSS.Batch.BL\\GOV.KS.DCF.CSS.Batch.BL.csproj
+		SccProjectName3 = ../GOV.KS.DCF.CSS.Batch.BL
+		SccLocalPath3 = ..\\GOV.KS.DCF.CSS.Batch.BL
+		SccProjectUniqueName4 = ..\\GOV.KS.DCF.CSS.Test\\GOV.KS.DCF.CSS.Test.csproj
+		SccProjectName4 = ../GOV.KS.DCF.CSS.Test
+		SccLocalPath4 = ..\\GOV.KS.DCF.CSS.Test
+	EndGlobalSection
+EndGlobal

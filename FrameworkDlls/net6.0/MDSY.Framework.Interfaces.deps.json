@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MDSY.Framework.Interfaces/1.0.0": {
+        "dependencies": {
+          "MDSY.Framework.Buffer.Interfaces": "1.6.0.1"
+        },
+        "runtime": {
+          "MDSY.Framework.Interfaces.dll": {}
+        }
+      },
+      "MDSY.Framework.Buffer.Interfaces/1.6.0.1": {
+        "runtime": {
+          "MDSY.Framework.Buffer.Interfaces.dll": {
+            "assemblyVersion": "1.6.0.1",
+            "fileVersion": "1.6.0.1"
+          }
+        }
+      },
+      "MDSY.Framework.Buffer.Common/1.6.0.1": {
+        "runtime": {
+          "MDSY.Framework.Buffer.Common.dll": {
+            "assemblyVersion": "1.6.0.1",
+            "fileVersion": "1.6.0.1"
+          }
+        }
+      },
+      "MDSY.Framework.Buffer.Unity/1.6.0.1": {
+        "runtime": {
+          "MDSY.Framework.Buffer.Unity.dll": {
+            "assemblyVersion": "1.6.0.1",
+            "fileVersion": "1.6.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MDSY.Framework.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MDSY.Framework.Buffer.Interfaces/1.6.0.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MDSY.Framework.Buffer.Common/1.6.0.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MDSY.Framework.Buffer.Unity/1.6.0.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
